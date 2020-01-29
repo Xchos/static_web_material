@@ -1,3 +1,50 @@
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.person-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    width: 600px;
+}
+
+.about {
+    width: 30vw;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.header {
+    background: url('./images/header.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.brand {
+    margin-left: 280px;
 }
